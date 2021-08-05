@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+    font-size: 10px; 
+    
+}
+
+:root{
+    --Cafe-Suabe:      #593E45;
+    --Teja-Vintage:    #BF584E;
+    --Semi-griss:      #5E5E5E;
+    --Palo-Rosa:       #F2B5A7;
+    --Griss-Suabe:     #ACACAC;
+    --Negro-Suabe:     #333333;
+    --BLANCO:          #FFFFFF;
+}
+
+body{
+    font-size: 10rem; /*le esta haciendo caso a este*/
+    background-color: ;
+}
+
+/*RECUERDA USAR UNIDADES << REM >> - html*/
+/*Medida del telefono -<< iPhone 6/7/8 >>*/

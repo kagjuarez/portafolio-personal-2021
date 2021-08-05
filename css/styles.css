@@ -1,0 +1,411 @@
+/*-----------BANNER--------------*/
+
+.Contenedor{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.menu-des{
+    height: 6rem; 
+    margin: 0rem 1rem 2rem 5rem;
+}
+
+.logo_1{
+    height: 13rem;
+    margin-top: 2rem;
+}
+
+.banner{
+    width: 100%;
+    height: 100rem;
+    background-image: url(../img/FONDO_BANNER_V-min.png);
+    background-repeat: no-repeat;
+    padding: 3rem;
+    margin: auto;
+}
+
+.titulo_1{
+    font-family:'Amatic SC', cursive;
+    text-align: center;
+    margin: auto;
+    color: #ffffff;
+    font-size: 25rem;
+    padding-top: 20rem;
+    font-weight: 400;
+}
+
+.bottones{
+    width: 60rem;
+    height: 20rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+.botton_1{
+    color: #FFFFFF;
+    font-size: 5.5rem;
+    margin: auto;
+    text-align: center;
+    padding: 1rem 0rem 1rem 4rem;
+    font-weight: 100;
+    text-decoration: none;
+    padding: 1rem;
+    border: 0.4rem solid #FFFFFF;
+}
+
+.texto_1{
+    font-size: 4.5rem;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    padding: 3rem;
+}
+
+/*---------SECCIÓN NOMBRE------------*/
+
+.presentacion{
+    width: 100rem;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+}
+
+.content-presentation{
+    width: 100%;
+    height: 60rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.lotus-img img{
+    height: 60rem;
+}
+
+.lotus-name{
+    width: 37rem;
+    height: 30rem;
+    font-size: 4.5rem;
+    margin-top: 20rem;
+}
+
+.lotus-descrip{
+    padding: 5rem;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+/*---------SECCIÓN programas que domina------------*/
+
+.titulo_d{
+    font-size: 6rem;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    
+}
+
+.caja_papa{
+    width: 90rem;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.programas-dom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 4rem;
+}
+
+.caja-xd{
+    width: 35rem;
+    height: 50rem;
+    margin: 3rem;
+    margin: auto;
+    background-image: url(../img/Programa_de_xd-min.jpg);
+    position: relative;
+    padding: 29rem 1rem 0rem 1rem;
+    
+    text-align: center;
+    font-size: 6rem;
+    color: var(--BLANCO);
+    font-weight: bolder;
+}
+
+.caja-html{
+    width: 35rem;
+    height: 50rem;
+    margin: auto;
+    background-image: url(../img/Desarrollo_web-min.jpg);
+    padding: 29rem 1rem 0rem 1rem;
+    
+    text-align: center;
+    font-size: 6rem;
+    color: var(--BLANCO);
+    font-weight: bolder;
+}
+
+
+.programas-dom2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 4rem;
+}
+
+.caja-Ai{
+    width: 35rem;
+    height: 50rem;
+    margin: 3rem;
+    margin: auto;
+    background-image: url(../img/Programa_Ai%20-%20copia.jpg);
+    position: relative;
+    padding: 29rem 1rem 0rem 1rem;
+    
+    text-align: center;
+    font-size: 6rem;
+    color: var(--BLANCO);
+    font-weight: bolder;
+
+}
+
+.caja-ps{
+    width: 35rem;
+    height: 50rem;
+    margin: auto;
+    background-image: url(../img/Programa_de_Ps-min.jpg);
+    padding: 29rem 1rem 0rem 1rem;
+    
+    text-align: center;
+    font-size: 6rem;
+    color: var(--BLANCO);
+    font-weight: bolder;
+}
+
+/*---------SECCIÓN proyectos------------*/
+
+.titulo_p{
+    font-size: 6rem;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.proyectos{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.C-1{
+    width: 90rem;
+    height: 70rem;
+    background-image: url(../img/Fondo_formas_img.png);
+    background-size: contain;
+    margin: auto;
+    padding: 15rem 5rem 5rem 5rem;
+    margin-top: 8rem;
+    margin-left: -5rem;
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.C-2{
+    width: 90rem;
+    height: 70rem;
+    background-image: url(../img/Fondo_formas_img.png);
+    background-size: contain;
+    margin: auto;
+    padding: 15rem 5rem 5rem 5rem;
+    margin-top: 8rem;
+    margin-left: -5rem;
+    
+}
+
+.C-3{
+    width: 90rem;
+    height: 70rem;
+    background-image: url(../img/Fondo_formas_img.png);
+    margin: auto;
+    padding: 6rem;
+    padding: 15rem 5rem 5rem 5rem;
+    margin-top: 8rem;
+     margin-left: -5rem;
+    background-size: contain;
+}
+
+.proyecto-html img{
+    height: 40rem; 
+    border-radius: 2rem;
+}
+
+.proyecto-ai img{
+    height: 40rem;
+    border-radius: 2rem;
+}
+
+.proyecto-xd img{
+    height: 40rem;  
+    border-radius: 2rem;
+}
+
+
+
+
+
+
+
+
+/*---------SECCIÓN contacto------------*/
+
+.titulo_c{
+    font-size: 6rem;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.contacto{
+    width: 100%;
+    height: 170rem;
+    padding: 4rem; 
+    margin-bottom: 5rem;
+}
+
+.login-box{
+    width: 90rem;
+    height: 150rem;
+    padding: 5rem 3rem 0rem 6rem;
+    display: block;
+    margin: auto;
+    margin-top: 15rem;
+    flex-direction: column;
+    background-image: linear-gradient(135deg, #eb5d53 0, #dd5155 12.5%, #cc4455 25%, #b73853 37.5%, #9f2b4e 50%, #872048 62.5%, #721642 75%, #5f0f3c 87.5%, #4f0a37 100%);
+    border-radius: 69% 9% 88% 9% / 9% 95% 14% 38% ;
+}
+
+.login-box h1{
+    font-size: 10rem; 
+    text-align: center;
+    margin-top: 9rem;
+    margin-bottom: 6rem;
+    color: var(--BLANCO);
+}
+
+.login-box label{
+    font-size: 7rem;
+    display: flex;
+    flex-direction: column;
+     color: var(--BLANCO);
+}
+
+.login-box input{
+    width: 95%;
+    height: 7rem;
+    border: none;
+    margin-bottom: 3rem;
+    border-bottom: 0.2rem solid #ffffff;
+    background: transparent;
+    outline: none;
+    color: var(--BLANCO);
+    font-size: 4rem;
+}
+
+
+.img-login{
+    width: 25rem;
+    border-radius: 50%;
+    position: absolute;
+    margin: -18rem 2rem 3rem 28rem; 
+}
+
+
+
+/*----------- FOOTER --------------*/
+
+.FOOTER{
+    width: 100%;
+    height: 60rem;
+    background-color: var(--Cafe-Suabe);
+    margin-top: 5rem;
+    padding: 10rem 2rem 3rem 2rem;
+}
+
+.curva_footer{
+    margin-bottom: -6rem;
+}
+
+.FOOTER p{
+    font-size: 5.4rem;
+    color: var(--BLANCO);
+    text-align: center;
+    align-content: center;
+}
+
+.iconos_footer{
+    width: 60rem;
+    height: 20rem;
+    margin: auto;
+}
+
+.iconos_footer img{
+    height: 9rem;
+    margin: auto;
+    margin: 2rem;
+    margin-top: 7rem;
+    padding: 0rem 2rem 0rem 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
